@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="Button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                </div>
+                <div class="social-icons">
+                    <img src="fb.png" >
+                    <img src="gp.png" >
+                    <img src="tw.png" >
+                    </div>
+<form id="Login" class="input-group">
+    <input type="text" id="username" placeholder="User Id" required>
+    <input type="password" id="Password" placeholder="Enter Password" required>
+    <input type="checkbox" class="check-box">
+    <span>Remember Password</span>
+    <button type="Submit" class="submit-btn"  >Log in</button>
+    
+</form>
+<form id="Register" class="input-group">
+    <input type="text" class="input-field" placeholder="User Id" required>
+    <input type="text" class="input-field" placeholder="Email Id" required>
+    <input type="text" class="input-field" placeholder="Enter Password" required>
+    <input type="checkbox" class="check-box"><span>Agree To The Terms</span>
+    
+    <button type="Submit" class="submit-btn">Register</button>
+    
+</form>
+            </div>
+        </div>
+       
+
+    </div>
+    <script src="js.js">
+      
+
+ 
+    </script>
+
+</body>
+
+</html>
